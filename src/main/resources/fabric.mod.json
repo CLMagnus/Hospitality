@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "hospitality",
+	"version": "${version}",
+	"name": "Hospitality",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Putrid Nonsense"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hospitality/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"putridnonsense.hospitality.Hospitality"
+		],
+		"client": [
+			"putridnonsense.hospitality.HospitalityClient"
+		],
+		"fabric-datagen": [
+			"putridnonsense.hospitality.HospitalityDataGenerator"
+		]
+	},
+	"mixins": [
+		"hospitality.mixins.json",
+		{
+			"config": "hospitality.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
