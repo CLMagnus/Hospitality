@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 import putridnonsense.hospitality.Hospitality;
 
 public class ModBlocks {
-    public static void registerBlocks() {
+    public static void registerBlockLog() {
         Hospitality.LOGGER.info("HOSPITALITY: Registering blocks...");
     }
 
@@ -31,7 +31,7 @@ public class ModBlocks {
     //Silver
     public static final Block SILVER_BLOCK = registerBlock("silver_block", new Block(FabricBlockSettings.of(Material.METAL, MapColor.LIGHT_BLUE).strength(3.0F, 6.0F).sounds(BlockSoundGroup.METAL).requiresTool()));
     public static final Block SILVER_ORE = registerBlock("silver_ore", new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0F, 3.0F)));
-    public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(SILVER_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(SILVER_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block RAW_SILVER_BLOCK = registerBlock("raw_silver_block", new Block(FabricBlockSettings.of(Material.STONE, MapColor.LIGHT_BLUE).requiresTool().strength(5.0F, 6.0F)));
     public static final Block SILVER_BARS = registerBlock("silver_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
     public static final Block SILVER_DOOR = registerBlock("silver_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.IRON_GRAY).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.GOLD));
@@ -56,7 +56,7 @@ public class ModBlocks {
     public static final Block WAXED_COPPER_CHAIN = registerBlock("waxed_copper_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
     public static final Block WAXED_EXPOSED_COPPER_CHAIN = registerBlock("waxed_exposed_copper_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
     public static final Block WAXED_WEATHERED_COPPER_CHAIN = registerBlock("waxed_weathered_copper_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
-    public static final Block WAXED_OXIDISED_COPPER_CHAIN = registerBlock("waxed_oxidised_copper_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
+    public static final Block WAXED_OXIDIZED_COPPER_CHAIN = registerBlock("waxed_oxidised_copper_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
     //Lanterns
     //Not-Waxed
     //Waxed
@@ -66,15 +66,15 @@ public class ModBlocks {
     public static final Block WAXED_EXPOSED_COPPER_SOUL_LANTERN = registerBlock("waxed_exposed_copper_soul_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
     public static final Block WAXED_WEATHERED_COPPER_LANTERN = registerBlock("waxed_weathered_copper_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
     public static final Block WAXED_WEATHERED_COPPER_SOUL_LANTERN = registerBlock("waxed_weathered_copper_soul_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
-    public static final Block WAXED_OXIDISED_COPPER_LANTERN = registerBlock("waxed_oxidised_copper_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block WAXED_OXIDISED_COPPER_SOUL_LANTERN = registerBlock("waxed_oxidised_copper_soul_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block WAXED_OXIDIZED_COPPER_LANTERN = registerBlock("waxed_oxidised_copper_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
+    public static final Block WAXED_OXIDIZED_COPPER_SOUL_LANTERN = registerBlock("waxed_oxidised_copper_soul_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
     //Bars
     //Not-Waxed
     //Waxed
     public static final Block WAXED_COPPER_BARS = registerBlock("waxed_copper_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
     public static final Block WAXED_EXPOSED_COPPER_BARS = registerBlock("waxed_exposed_copper_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
     public static final Block WAXED_WEATHERED_COPPER_BARS = registerBlock("waxed_weathered_copper_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
-    public static final Block WAXED_OXIDISED_COPPER_BARS = registerBlock("waxed_oxidised_copper_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
+    public static final Block WAXED_OXIDIZED_COPPER_BARS = registerBlock("waxed_oxidised_copper_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
     //Doors
     //Not-Waxed
     //Waxed
@@ -82,12 +82,12 @@ public class ModBlocks {
     public static final Block WAXED_COPPER_DOOR = registerBlock("waxed_copper_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.ORANGE).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
     public static final Block WAXED_EXPOSED_COPPER_DOOR = registerBlock("waxed_exposed_copper_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.ORANGE).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
     public static final Block WAXED_WEATHERED_COPPER_DOOR = registerBlock("waxed_weathered_copper_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.ORANGE).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
-    public static final Block WAXED_OXIDISED_COPPER_DOOR = registerBlock("waxed_oxidised_copper_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.ORANGE).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
+    public static final Block WAXED_OXIDIZED_COPPER_DOOR = registerBlock("waxed_oxidised_copper_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.ORANGE).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
     //Trapdoors
     //Not-Waxed
     //Waxed
     public static final Block WAXED_COPPER_TRAPDOOR = registerBlock("waxed_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
     public static final Block WAXED_EXPOSED_COPPER_TRAPDOOR = registerBlock("waxed_exposed_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
     public static final Block WAXED_WEATHERED_COPPER_TRAPDOOR = registerBlock("waxed_weathered_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
-    public static final Block WAXED_OXIDISED_COPPER_TRAPDOOR = registerBlock("waxed_oxidised_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
+    public static final Block WAXED_OXIDIZED_COPPER_TRAPDOOR = registerBlock("waxed_oxidised_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.IRON));
 }

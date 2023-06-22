@@ -23,7 +23,8 @@ public class Hospitality implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModBlocks.registerBlocks();
+		//For Logs
+		ModBlocks.registerBlockLog();
 
 		CreativeTabs.registerTabItems();
 	}
