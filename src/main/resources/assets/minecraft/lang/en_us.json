@@ -1,3 +1,5 @@
 {
-  "block.minecraft.chain": "Iron Chain"
+  "block.minecraft.chain": "Iron Chain",
+  "block.minecraft.lantern": "Iron Lantern",
+  "block.minecraft.soul_lantern": "Iron Soul Lantern"
 }

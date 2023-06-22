@@ -2,9 +2,15 @@ package putridnonsense.hospitality;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.item.Items;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import putridnonsense.hospitality.block.ModBlocks;
+import putridnonsense.hospitality.item.CreativeTabs;
+
+import static putridnonsense.hospitality.block.ModBlocks.*;
 
 public class Hospitality implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -18,6 +24,7 @@ public class Hospitality implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerBlocks();
-	}
 
+		CreativeTabs.registerTabItems();
+	}
 }
