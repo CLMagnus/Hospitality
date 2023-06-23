@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "hospitality:block/gold_chain",
+      "model": "hospitality:block/exposed_copper_chain",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "hospitality:block/gold_chain"
+      "model": "hospitality:block/exposed_copper_chain"
     },
     "axis=z": {
-      "model": "hospitality:block/gold_chain",
+      "model": "hospitality:block/exposed_copper_chain",
       "x": 90
     }
   }
