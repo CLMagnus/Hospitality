@@ -5,7 +5,6 @@ import net.minecraft.item.ItemGroups;
 
 import static net.minecraft.item.Items.*;
 import static putridnonsense.hospitality.block.ModBlocks.*;
-import static putridnonsense.hospitality.block.ModBlocks.SILVER_CHAIN;
 
 public class CreativeTabs {
     public static void registerTabItems() {
@@ -30,6 +29,10 @@ public class CreativeTabs {
             content.addAfter(SILVER_TRAPDOOR, SILVER_CHAIN);
             content.addAfter(SILVER_CHAIN, SILVER_LANTERN);
             content.addAfter(SILVER_LANTERN, SILVER_SOUL_LANTERN);
+
+            //Iron
+            content.addAfter(IRON_BLOCK, IRON_BLOCK_STAIRS);
+            content.addAfter(IRON_BLOCK_STAIRS, IRON_BLOCK_SLAB);
 
             //Copper
 
