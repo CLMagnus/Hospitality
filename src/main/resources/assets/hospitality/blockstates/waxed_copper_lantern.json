@@ -1,10 +1,10 @@
 {
   "variants": {
     "hanging=false": {
-      "model": "minecraft:block/lantern"
+      "model": "hospitality:block/copper_lantern"
     },
     "hanging=true": {
-      "model": "minecraft:block/lantern_hanging"
+      "model": "hospitality:block/copper_lantern_hanging"
     }
   }
 }

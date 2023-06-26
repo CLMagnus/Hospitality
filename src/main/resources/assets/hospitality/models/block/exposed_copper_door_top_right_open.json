@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_top_right_open",
   "textures": {
-    "bottom": "minecraft:block/iron_door_bottom",
-    "top": "minecraft:block/iron_door_top"
+    "bottom": "hospitality:block/exposed_copper_door_bottom",
+    "top": "hospitality:block/exposed_copper_door_top"
   }
 }

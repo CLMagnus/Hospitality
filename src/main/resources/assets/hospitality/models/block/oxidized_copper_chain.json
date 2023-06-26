@@ -1,6 +1,6 @@
 {
   "parent": "hospitality:block/template_chain",
   "textures": {
-    "texture": "hospitality:block/gold_chain"
+    "texture": "hospitality:block/oxidized_copper_chain"
   }
 }

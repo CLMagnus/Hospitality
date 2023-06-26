@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_right",
   "textures": {
-    "bottom": "minecraft:block/iron_door_bottom",
-    "top": "minecraft:block/iron_door_top"
+    "bottom": "hospitality:block/copper_door_bottom",
+    "top": "hospitality:block/copper_door_top"
   }
 }
