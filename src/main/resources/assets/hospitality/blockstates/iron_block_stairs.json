@@ -94,7 +94,7 @@
       "x": 180
     },
     "facing=north,half=top,shape=straight": {
-      "model": "hospitality:block/iron_block_stairs_rotated_upside_down",
+      "model": "hospitality:block/iron_block_stairs_upside_down",
       "uvlock": true,
       "x": 180,
       "y": 270
@@ -145,7 +145,7 @@
       "y": 180
     },
     "facing=south,half=top,shape=straight": {
-      "model": "hospitality:block/iron_block_stairs_rotated_upside_down",
+      "model": "hospitality:block/iron_block_stairs_upside_down",
       "uvlock": true,
       "x": 180,
       "y": 90
