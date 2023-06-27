@@ -1,14 +1,17 @@
 package putridnonsense.hospitality.block;
 
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.LanternBlock;
+import net.minecraft.block.Oxidizable;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class OxidizableChain extends ChainBlock implements Oxidizable {
-    private final Oxidizable.OxidationLevel oxidationLevel;
+public class OxidizableLantern extends LanternBlock implements Oxidizable {
+    private final OxidationLevel oxidationLevel;
 
-    public OxidizableChain(Oxidizable.OxidationLevel oxidationLevel, AbstractBlock.Settings settings) {
+    public OxidizableLantern(OxidationLevel oxidationLevel, Settings settings) {
         super(settings);
         this.oxidationLevel = oxidationLevel;
     }
@@ -21,7 +24,7 @@ public class OxidizableChain extends ChainBlock implements Oxidizable {
         return Oxidizable.getIncreasedOxidationBlock(state.getBlock()).isPresent();
     }
 
-    public Oxidizable.OxidationLevel getDegradationLevel() {
+    public OxidationLevel getDegradationLevel() {
         return this.oxidationLevel;
     }
 }

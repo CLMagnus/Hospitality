@@ -35,12 +35,36 @@ public class CreativeTabs {
             content.addAfter(IRON_BLOCK_STAIRS, IRON_BLOCK_SLAB);
 
             //Copper
+            content.addAfter(CUT_COPPER_SLAB, COPPER_BARS);
+            content.addAfter(COPPER_BARS, COPPER_DOOR);
+            content.addAfter(COPPER_DOOR, COPPER_TRAPDOOR);
+            content.addAfter(COPPER_TRAPDOOR, COPPER_CHAIN);
+            content.addAfter(COPPER_CHAIN, COPPER_LANTERN);
+            content.addAfter(COPPER_LANTERN, COPPER_SOUL_LANTERN);
 
             //Exposed Copper
+            content.addAfter(EXPOSED_CUT_COPPER_SLAB, EXPOSED_COPPER_BARS);
+            content.addAfter(EXPOSED_COPPER_BARS, EXPOSED_COPPER_DOOR);
+            content.addAfter(EXPOSED_COPPER_DOOR, EXPOSED_COPPER_TRAPDOOR);
+            content.addAfter(EXPOSED_COPPER_TRAPDOOR, EXPOSED_COPPER_CHAIN);
+            content.addAfter(EXPOSED_COPPER_CHAIN, EXPOSED_COPPER_LANTERN);
+            content.addAfter(EXPOSED_COPPER_LANTERN, EXPOSED_COPPER_SOUL_LANTERN);
 
             //Weathered Copper
+            content.addAfter(WEATHERED_CUT_COPPER_SLAB, WEATHERED_COPPER_BARS);
+            content.addAfter(WEATHERED_COPPER_BARS, WEATHERED_COPPER_DOOR);
+            content.addAfter(WEATHERED_COPPER_DOOR, WEATHERED_COPPER_TRAPDOOR);
+            content.addAfter(WEATHERED_COPPER_TRAPDOOR, WEATHERED_COPPER_CHAIN);
+            content.addAfter(WEATHERED_COPPER_CHAIN, WEATHERED_COPPER_LANTERN);
+            content.addAfter(WEATHERED_COPPER_LANTERN, WEATHERED_COPPER_SOUL_LANTERN);
 
             //Oxidised Copper
+            content.addAfter(OXIDIZED_CUT_COPPER_SLAB, OXIDIZED_COPPER_BARS);
+            content.addAfter(OXIDIZED_COPPER_BARS, OXIDIZED_COPPER_DOOR);
+            content.addAfter(OXIDIZED_COPPER_DOOR, OXIDIZED_COPPER_TRAPDOOR);
+            content.addAfter(OXIDIZED_COPPER_TRAPDOOR, OXIDIZED_COPPER_CHAIN);
+            content.addAfter(OXIDIZED_COPPER_CHAIN, OXIDIZED_COPPER_LANTERN);
+            content.addAfter(OXIDIZED_COPPER_LANTERN, OXIDIZED_COPPER_SOUL_LANTERN);
 
             //Waxed Copper
             content.addAfter(WAXED_CUT_COPPER_SLAB, WAXED_COPPER_BARS);

@@ -1,3 +1,8 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
 package putridnonsense.hospitality.block;
 
 import net.minecraft.block.*;
@@ -5,11 +10,11 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class OxidizableChain extends ChainBlock implements Oxidizable {
+public class OxidizableTrapdoor extends TrapdoorBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
-    public OxidizableChain(Oxidizable.OxidationLevel oxidationLevel, AbstractBlock.Settings settings) {
-        super(settings);
+    public OxidizableTrapdoor(Oxidizable.OxidationLevel oxidationLevel, AbstractBlock.Settings settings, BlockSetType baseBlockSet) {
+        super(settings, baseBlockSet);
         this.oxidationLevel = oxidationLevel;
     }
 
