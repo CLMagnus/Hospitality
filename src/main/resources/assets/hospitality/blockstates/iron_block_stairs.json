@@ -14,7 +14,7 @@
       "y": 270
     },
     "facing=east,half=bottom,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer_east_bottom"
+      "model": "hospitality:block/iron_block_stairs_outer_south_bottom"
     },
     "facing=east,half=bottom,shape=straight": {
       "model": "hospitality:block/iron_block_stairs_rotated"
@@ -31,12 +31,12 @@
       "y": 90
     },
     "facing=east,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_east_top",
       "uvlock": true,
       "x": 180
     },
     "facing=east,half=top,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_east_top",
       "uvlock": true,
       "x": 180,
       "y": 90
@@ -57,12 +57,12 @@
       "y": 270
     },
     "facing=north,half=bottom,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer_north",
+      "model": "hospitality:block/iron_block_stairs_outer_north_bottom",
       "uvlock": true,
       "y": 180
     },
     "facing=north,half=bottom,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer_north",
+      "model": "hospitality:block/iron_block_stairs_outer_east_bottom",
       "uvlock": true,
       "y": 270
     },
@@ -83,13 +83,13 @@
       "x": 180
     },
     "facing=north,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_north_top",
       "uvlock": true,
       "x": 180,
       "y": 270
     },
     "facing=north,half=top,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_north_top",
       "uvlock": true,
       "x": 180
     },
@@ -108,10 +108,10 @@
       "y": 90
     },
     "facing=south,half=bottom,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer"
+      "model": "hospitality:block/iron_block_stairs_outer_south_bottom"
     },
     "facing=south,half=bottom,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_west_bottom",
       "uvlock": true,
       "y": 90
     },
@@ -133,13 +133,13 @@
       "y": 180
     },
     "facing=south,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_south_top",
       "uvlock": true,
       "x": 180,
       "y": 90
     },
     "facing=south,half=top,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_south_top",
       "uvlock": true,
       "x": 180,
       "y": 180
@@ -161,12 +161,12 @@
       "y": 180
     },
     "facing=west,half=bottom,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_west_bottom",
       "uvlock": true,
       "y": 90
     },
     "facing=west,half=bottom,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_north_bottom",
       "uvlock": true,
       "y": 180
     },
@@ -188,13 +188,13 @@
       "y": 270
     },
     "facing=west,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_west_top",
       "uvlock": true,
       "x": 180,
       "y": 180
     },
     "facing=west,half=top,shape=outer_right": {
-      "model": "hospitality:block/iron_block_stairs_outer",
+      "model": "hospitality:block/iron_block_stairs_outer_west_top",
       "uvlock": true,
       "x": 180,
       "y": 270
