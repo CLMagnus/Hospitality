@@ -5,6 +5,7 @@ import net.minecraft.item.ItemGroups;
 
 import static net.minecraft.item.Items.*;
 import static putridnonsense.hospitality.block.ModBlocks.*;
+import static putridnonsense.hospitality.item.ModItems.*;
 
 public class CreativeTabs {
     public static void registerTabItems() {
@@ -106,11 +107,10 @@ public class CreativeTabs {
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
-            /*
             content.addAfter(RAW_COPPER, RAW_SILVER);
             content.addAfter(COPPER_INGOT, SILVER_INGOT);
             content.addAfter(IRON_NUGGET, COPPER_NUGGET);
-             */
+            content.addAfter(COPPER_NUGGET, SILVER_NUGGET);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> {
