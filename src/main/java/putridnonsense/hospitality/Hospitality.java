@@ -2,11 +2,9 @@ package putridnonsense.hospitality;
 
 import net.fabricmc.api.ModInitializer;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import putridnonsense.hospitality.block.ModBlocks;
-import putridnonsense.hospitality.item.ModItems;
-import putridnonsense.hospitality.item.CreativeTabs;
+import org.slf4j.*;
+import putridnonsense.hospitality.block.*;
+import putridnonsense.hospitality.item.*;
 
 public class Hospitality implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
