@@ -1,7 +1,7 @@
 {
   "parent": "hospitality:block/template_outer_stairs",
   "textures": {
-    "up": "hospitality:block/iron_block_stairs_north",
+    "up": "hospitality:block/iron_block_stairs_south",
     "down": "minecraft:block/iron_block",
     "north": "hospitality:block/iron_block_stairs_corner_1",
     "south": "hospitality:block/iron_block_stairs_south",
