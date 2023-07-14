@@ -1,4 +1,8 @@
 {
+	"item.hospitality.silver_ingot" : "Silver Ingot",
+	"item.hospitality.silver_nugget" : "Silver Nugget",
+	"item.hospitality.raw_silver" : "Raw Silver",
+	"item.hospitality.copper_nugget" : "Copper Nugget",
 	"block.hospitality.silver_block" : "Block of Silver",
 	"block.hospitality.silver_ore" : "Silver Ore",
 	"block.hospitality.deepslate_silver_ore" : "Deepslate Silver Ore",

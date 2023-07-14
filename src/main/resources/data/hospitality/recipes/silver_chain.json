@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "hospitality:silver_ingot"
+    },
+    "N": {
+      "tag": "c:silver_nuggets"
+    }
+  },
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "result": {
+    "item": "hospitality:silver_chain"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "tag": "c:items/silver_ingot"
+      }
+    },
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "result": {
+      "count": 16,
+      "item": "hospitality:silver_bars"
+    },
+    "show_notification": true
+  }
