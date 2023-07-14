@@ -31,7 +31,7 @@
       "y": 90
     },
     "facing=east,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer_east_top",
+      "model": "hospitality:block/iron_block_stairs_outer_north_top",
       "uvlock": true,
       "x": 180
     },
@@ -83,7 +83,7 @@
       "x": 180
     },
     "facing=north,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer_north_top",
+      "model": "hospitality:block/iron_block_stairs_outer_west_top",
       "uvlock": true,
       "x": 180,
       "y": 270
@@ -133,7 +133,7 @@
       "y": 180
     },
     "facing=south,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer_south_top",
+      "model": "hospitality:block/iron_block_stairs_outer_east_top",
       "uvlock": true,
       "x": 180,
       "y": 90
@@ -188,7 +188,7 @@
       "y": 270
     },
     "facing=west,half=top,shape=outer_left": {
-      "model": "hospitality:block/iron_block_stairs_outer_west_top",
+      "model": "hospitality:block/iron_block_stairs_outer_south_top",
       "uvlock": true,
       "x": 180,
       "y": 180
