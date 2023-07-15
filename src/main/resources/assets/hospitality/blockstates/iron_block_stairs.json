@@ -1,12 +1,12 @@
 {
   "variants": {
     "facing=east,half=bottom,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_east_bottom",
       "uvlock": true,
       "y": 270
     },
     "facing=east,half=bottom,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner"
+      "model": "hospitality:block/iron_block_stairs_inner_south_bottom"
     },
     "facing=east,half=bottom,shape=outer_left": {
       "model": "hospitality:block/iron_block_stairs_outer_east_bottom",
@@ -20,12 +20,12 @@
       "model": "hospitality:block/iron_block_stairs_rotated"
     },
     "facing=east,half=top,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_north_top",
       "uvlock": true,
       "x": 180
     },
     "facing=east,half=top,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_east_top",
       "uvlock": true,
       "x": 180,
       "y": 90
@@ -47,12 +47,12 @@
       "x": 180
     },
     "facing=north,half=bottom,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_north_bottom",
       "uvlock": true,
       "y": 180
     },
     "facing=north,half=bottom,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_east_bottom",
       "uvlock": true,
       "y": 270
     },
@@ -72,13 +72,13 @@
       "y": 270
     },
     "facing=north,half=top,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_west_top",
       "uvlock": true,
       "x": 180,
       "y": 270
     },
     "facing=north,half=top,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_north_top",
       "uvlock": true,
       "x": 180
     },
@@ -100,10 +100,10 @@
       "y": 270
     },
     "facing=south,half=bottom,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner"
+      "model": "hospitality:block/iron_block_stairs_inner_south_bottom"
     },
     "facing=south,half=bottom,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_west_bottom",
       "uvlock": true,
       "y": 90
     },
@@ -121,13 +121,13 @@
       "y": 90
     },
     "facing=south,half=top,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_east_top",
       "uvlock": true,
       "x": 180,
       "y": 90
     },
     "facing=south,half=top,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_south_top",
       "uvlock": true,
       "x": 180,
       "y": 180
@@ -151,12 +151,12 @@
       "y": 90
     },
     "facing=west,half=bottom,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_west_bottom",
       "uvlock": true,
       "y": 90
     },
     "facing=west,half=bottom,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_north_bottom",
       "uvlock": true,
       "y": 180
     },
@@ -176,13 +176,13 @@
       "y": 180
     },
     "facing=west,half=top,shape=inner_left": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_south_top",
       "uvlock": true,
       "x": 180,
       "y": 180
     },
     "facing=west,half=top,shape=inner_right": {
-      "model": "hospitality:block/iron_block_stairs_inner",
+      "model": "hospitality:block/iron_block_stairs_inner_west_top",
       "uvlock": true,
       "x": 180,
       "y": 270
