@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "hospitality:block/oxidized_copper_soul_lantern"
+    },
+    "hanging=true": {
+      "model": "hospitality:block/oxidized_copper_soul_lantern_hanging"
+    }
+  }
+}

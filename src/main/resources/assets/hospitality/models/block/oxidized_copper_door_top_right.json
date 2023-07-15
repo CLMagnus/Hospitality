@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_top_right",
   "textures": {
-    "bottom": "hospitality:oxidized_copper_door_top",
-    "top": "hospitality:oxidized_copper_door_top"
+    "bottom": "hospitality:block/oxidized_copper_door_top",
+    "top": "hospitality:block/oxidized_copper_door_top"
   } 
 }

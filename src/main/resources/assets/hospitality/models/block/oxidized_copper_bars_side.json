@@ -1,9 +1,9 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "hospitality:block/weathered_copper_bars",
-        "bars": "hospitality:block/weathered_copper_bars",
-        "edge": "hospitality:block/weathered_copper_bars"
+        "particle": "hospitality:block/oxidized_copper_bars",
+        "bars": "hospitality:block/oxidized_copper_bars",
+        "edge": "hospitality:block/oxidized_copper_bars"
     },
     "elements": [
         {   "from": [ 8, 0, 0 ],

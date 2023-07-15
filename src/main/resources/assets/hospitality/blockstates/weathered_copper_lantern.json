@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "hospitality:block/weathered_copper_lantern"
+    },
+    "hanging=true": {
+      "model": "hospitality:block/weathered_copper_lantern_hanging"
+    }
+  }
+}

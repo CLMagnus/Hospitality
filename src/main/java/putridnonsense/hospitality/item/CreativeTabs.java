@@ -116,26 +116,17 @@ public class CreativeTabs {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> {
             //Lanterns
             content.addAfter(LANTERN, WAXED_COPPER_LANTERN);
-            content.addAfter(WAXED_COPPER_LANTERN, WAXED_EXPOSED_COPPER_LANTERN);
-            content.addAfter(WAXED_EXPOSED_COPPER_LANTERN, WAXED_WEATHERED_COPPER_LANTERN);
-            content.addAfter(WAXED_WEATHERED_COPPER_LANTERN, WAXED_OXIDIZED_COPPER_LANTERN);
-            content.addAfter(WAXED_OXIDIZED_COPPER_LANTERN, SILVER_LANTERN);
+            content.addAfter(WAXED_COPPER_LANTERN, SILVER_LANTERN);
             content.addAfter(SILVER_LANTERN, GOLD_LANTERN);
 
             //Soul lantern
             content.addAfter(SOUL_LANTERN, WAXED_COPPER_SOUL_LANTERN);
-            content.addAfter(WAXED_COPPER_SOUL_LANTERN, WAXED_EXPOSED_COPPER_SOUL_LANTERN);
-            content.addAfter(WAXED_EXPOSED_COPPER_SOUL_LANTERN, WAXED_WEATHERED_COPPER_SOUL_LANTERN);
-            content.addAfter(WAXED_WEATHERED_COPPER_SOUL_LANTERN, WAXED_OXIDIZED_COPPER_SOUL_LANTERN);
-            content.addAfter(WAXED_OXIDIZED_COPPER_SOUL_LANTERN, SILVER_SOUL_LANTERN);
+            content.addAfter(WAXED_COPPER_SOUL_LANTERN, SILVER_SOUL_LANTERN);
             content.addAfter(SILVER_SOUL_LANTERN, GOLD_SOUL_LANTERN);
 
             //Chains
             content.addAfter(CHAIN, WAXED_COPPER_CHAIN);
-            content.addAfter(WAXED_COPPER_CHAIN, WAXED_EXPOSED_COPPER_CHAIN);
-            content.addAfter(WAXED_EXPOSED_COPPER_CHAIN, WAXED_WEATHERED_COPPER_CHAIN);
-            content.addAfter(WAXED_WEATHERED_COPPER_CHAIN, WAXED_OXIDIZED_COPPER_CHAIN);
-            content.addAfter(WAXED_OXIDIZED_COPPER_CHAIN, SILVER_CHAIN);
+            content.addAfter(WAXED_COPPER_CHAIN, SILVER_CHAIN);
             content.addAfter(SILVER_CHAIN, GOLD_CHAIN);
         });
     }

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
   "textures": {
-    "bottom": "hospitality:weathered_copper_door_bottom",
-    "top": "hospitality:weathered_copper_door_top"
+    "bottom": "hospitality:block/weathered_copper_door_bottom",
+    "top": "hospitality:block/weathered_copper_door_top"
   }
 }

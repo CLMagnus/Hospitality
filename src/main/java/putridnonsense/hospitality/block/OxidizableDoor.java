@@ -10,7 +10,7 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class OxidizableDoor extends TrapdoorBlock implements Oxidizable {
+public class OxidizableDoor extends DoorBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
     public OxidizableDoor(Oxidizable.OxidationLevel oxidationLevel, AbstractBlock.Settings settings, BlockSetType baseBlockSet) {
