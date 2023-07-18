@@ -1,0 +1,12 @@
+{
+  "replace" : false,
+  "values": [
+    "hospitality:gold_lantern",
+    "hospitality:gold_soul_lantern",
+    "hospitality:gold_bars",
+    "hospitality:gold_door",
+    "hospitality:gold_trapdoor",
+    "hospitality:gold_chain",
+    "hospitality:gold_trapdoor"
+  ]
+}

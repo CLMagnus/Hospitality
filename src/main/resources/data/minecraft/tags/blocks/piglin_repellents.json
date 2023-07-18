@@ -1,0 +1,15 @@
+{
+  "replace" : false,
+  "values": [
+    "hospitality:gold_soul_lantern",
+    "hospitality:silver_soul_lantern",
+    "hospitality:copper_soul_lantern",
+    "hospitality:exposed_copper_soul_lantern",
+    "hospitality:weathered_copper_soul_lantern",
+    "hospitality:oxidized_copper_soul_lantern",
+    "hospitality:waxed_copper_soul_lantern",
+    "hospitality:waxed_exposed_copper_soul_lantern",
+    "hospitality:waxed_weathered_copper_soul_lantern",
+    "hospitality:waxed_oxidized_copper_soul_lantern"
+  ]
+}

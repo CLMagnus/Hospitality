@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "#": {
-        "tag": "c:silver_ingot"
+        "tag": "c:raw_silver"
       }
     },
     "pattern": [
       "###",
+      "###",
       "###"
     ],
     "result": {
-      "count": 16,
-      "item": "hospitality:silver_bars"
+      "item": "hospitality:raw_silver_block"
     },
     "show_notification": true
   }

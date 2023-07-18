@@ -6,12 +6,11 @@
       }
     },
     "pattern": [
-      "###",
-      "###"
+      "##",
+      "##"
     ],
     "result": {
-      "count": 16,
-      "item": "hospitality:silver_bars"
+      "item": "hospitality:silver_trapdoor"
     },
     "show_notification": true
   }

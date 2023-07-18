@@ -2,16 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "#": {
-        "tag": "c:silver_ingot"
+        "item": "minecraft:gold_ingot"
       }
     },
     "pattern": [
-      "###",
-      "###"
+      "##",
+      "##",
+      "##"
     ],
     "result": {
-      "count": 16,
-      "item": "hospitality:silver_bars"
+      "count": 3,
+      "item": "hospitality:gold_door"
     },
     "show_notification": true
-  }
+}

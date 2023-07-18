@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "#": {
-        "tag": "c:silver_ingot"
+        "tag": "c:items/copper_nuggets"
       }
     },
     "pattern": [
       "###",
+      "###",
       "###"
     ],
     "result": {
-      "count": 16,
-      "item": "hospitality:silver_bars"
+      "item": "minecraft:copper_ingot"
     },
     "show_notification": true
   }

@@ -6,12 +6,13 @@
       }
     },
     "pattern": [
-      "###",
-      "###"
+      "##",
+      "##",
+      "##"
     ],
     "result": {
-      "count": 16,
-      "item": "hospitality:silver_bars"
+      "count": 3,
+      "item": "hospitality:silver_door"
     },
     "show_notification": true
   }

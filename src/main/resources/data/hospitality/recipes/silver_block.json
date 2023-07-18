@@ -7,11 +7,11 @@
     },
     "pattern": [
       "###",
+      "###",
       "###"
     ],
     "result": {
-      "count": 16,
-      "item": "hospitality:silver_bars"
+      "item": "hospitality:silver_block"
     },
     "show_notification": true
   }
