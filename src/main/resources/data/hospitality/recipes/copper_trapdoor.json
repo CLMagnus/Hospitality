@@ -2,16 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "#": {
-        "tag": "c:copper_nuggets"
+        "item": "minecraft:copper_ingot"
       }
     },
     "pattern": [
-      "###",
-      "###",
-      "###"
+      "##",
+      "##"
     ],
     "result": {
-      "item": "minecraft:copper_ingot"
+      "item": "hospitality:copper_trapdoor"
     },
     "show_notification": true
-  }
+}

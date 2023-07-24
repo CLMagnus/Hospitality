@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.item.Item;
+import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
     public static void registerBlockLog() {
@@ -50,6 +51,12 @@ public class ModBlocks {
     //Iron
     public static final Block IRON_BLOCK_STAIRS = registerBlock("iron_block_stairs", new StairsBlock(Blocks.IRON_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL, MapColor.IRON_GRAY).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
     public static final Block IRON_BLOCK_SLAB = registerBlock("iron_block_slab", new SlabBlock(FabricBlockSettings.copy(IRON_BLOCK_STAIRS)));
+
+    //Chairs
+    //public static final Block OAK_CHAIR = registerBlock("OAK_CHAIR", new ChairBlock(FabricBlockSettings.copy(OAK_PLANKS)));
+
+    //Tables
+
 
     //Copper
     //Chains

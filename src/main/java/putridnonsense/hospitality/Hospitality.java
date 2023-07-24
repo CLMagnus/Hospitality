@@ -2,8 +2,11 @@ package putridnonsense.hospitality;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.networking.v1.*;
+import net.minecraft.network.PacketByteBuf;
 import org.slf4j.*;
 import putridnonsense.hospitality.block.*;
+import putridnonsense.hospitality.economy.Pool;
 import putridnonsense.hospitality.item.*;
 
 public class Hospitality implements ModInitializer {
@@ -23,5 +26,18 @@ public class Hospitality implements ModInitializer {
 		ModItems.registerItemLog();
 
 		CreativeTabs.registerTabItems();
+/*
+		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
+			// You can see we use the function getServer() that's on the player.
+			Pool serverState = Pool.getServerState(handler.player.world.getServer());
+
+
+			// Sending the packet to the player (look at the networking page for more information)
+			PacketByteBuf data = PacketByteBufs.create();
+			data.writeInt(Pool.ServerPool);
+			ServerPlayNetworking.send(handler.player, NetworkingMessages.CRAFTED_FURNACES, data);
+		});
+
+ */
 	}
 }
