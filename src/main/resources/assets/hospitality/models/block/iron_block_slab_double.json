@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_column",
   "textures": {
     "end": "minecraft:block/iron_block",
-    "side": "hospitality:block/iron_block_slab_side"
+    "side": "hospitality:block/iron_block/slab_side"
   }
 }

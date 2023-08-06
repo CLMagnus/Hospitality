@@ -2,7 +2,7 @@
   "parent": "minecraft:block/slab",
   "textures": {
     "bottom": "minecraft:block/iron_block",
-    "side": "hospitality:block/iron_block_slab_side",
+    "side": "hospitality:block/iron_block/slab_side",
     "top": "minecraft:block/iron_block"
   }
 }
