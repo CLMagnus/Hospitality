@@ -39,6 +39,8 @@ public class ModBlocks {
     public static final Block SILVER_CHAIN = registerBlock("silver_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
     public static final Block SILVER_LANTERN = registerBlock("silver_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
     public static final Block SILVER_SOUL_LANTERN = registerBlock("silver_soul_lantern", new LanternBlock(AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block SILVER_BLOCK_STAIRS = registerBlock("silver_block_stairs", new StairsBlock(SILVER_BLOCK.getDefaultState(), FabricBlockSettings.copy(SILVER_BLOCK)));
+    public static final Block SILVER_BLOCK_SLAB = registerBlock("silver_block_slab", new SlabBlock(FabricBlockSettings.copy(SILVER_BLOCK)));
 
     //Gold
     public static final Block GOLD_BARS = registerBlock("gold_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
@@ -47,16 +49,27 @@ public class ModBlocks {
     public static final Block GOLD_CHAIN = registerBlock("gold_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
     public static final Block GOLD_LANTERN = registerBlock("gold_lantern", new LanternBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
     public static final Block GOLD_SOUL_LANTERN = registerBlock("gold_soul_lantern", new LanternBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block GOLD_BLOCK_STAIRS = registerBlock("gold_block_stairs", new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.copy(GOLD_BLOCK)));
+    public static final Block GOLD_BLOCK_SLAB = registerBlock("gold_block_slab", new SlabBlock(FabricBlockSettings.copy(GOLD_BLOCK)));
 
     //Iron
-    public static final Block IRON_BLOCK_STAIRS = registerBlock("iron_block_stairs", new StairsBlock(Blocks.IRON_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL, MapColor.IRON_GRAY).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
-    public static final Block IRON_BLOCK_SLAB = registerBlock("iron_block_slab", new SlabBlock(FabricBlockSettings.copy(IRON_BLOCK_STAIRS)));
+    public static final Block IRON_BLOCK_STAIRS = registerBlock("iron_block_stairs", new StairsBlock(Blocks.IRON_BLOCK.getDefaultState(), FabricBlockSettings.copy(IRON_BLOCK)));
+    public static final Block IRON_BLOCK_SLAB = registerBlock("iron_block_slab", new SlabBlock(FabricBlockSettings.copy(IRON_BLOCK)));
+
+    //Netherite
+    public static final Block NETHERITE_BARS = registerBlock("netherite_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
+    public static final Block NETHERITE_DOOR = registerBlock("netherite_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.IRON_GRAY).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.GOLD));
+    public static final Block NETHERITE_TRAPDOOR = registerBlock("netherite_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.GOLD));
+    public static final Block NETHERITE_CHAIN = registerBlock("netherite_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
+    public static final Block NETHERITE_LANTERN = registerBlock("netherite_lantern", new LanternBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
+    public static final Block NETHERITE_SOUL_LANTERN = registerBlock("netherite_soul_lantern", new LanternBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block NETHERITE_BLOCK_STAIRS = registerBlock("netherite_block_stairs", new StairsBlock(Blocks.NETHERITE_BLOCK.getDefaultState(), FabricBlockSettings.copy(NETHERITE_BLOCK)));
+    public static final Block NETHERITE_BLOCK_SLAB = registerBlock("netherite_block_slab", new SlabBlock(FabricBlockSettings.copy(NETHERITE_BLOCK)));
 
     //Chairs
     //public static final Block OAK_CHAIR = registerBlock("OAK_CHAIR", new ChairBlock(FabricBlockSettings.copy(OAK_PLANKS)));
 
     //Tables
-
 
     //Copper
     //Chains
@@ -80,7 +93,6 @@ public class ModBlocks {
     public static final Block WEATHERED_COPPER_SOUL_LANTERN = registerBlock("weathered_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.WEATHERED, AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
     public static final Block OXIDIZED_COPPER_LANTERN = registerBlock("oxidized_copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
     public static final Block OXIDIZED_COPPER_SOUL_LANTERN = registerBlock("oxidized_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.OXIDIZED, AbstractBlock.Settings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
-
     //Waxed
     public static final Block WAXED_COPPER_LANTERN = registerBlock("waxed_copper_lantern", new LanternBlock(AbstractBlock.Settings.copy(COPPER_LANTERN)));
     public static final Block WAXED_COPPER_SOUL_LANTERN = registerBlock("waxed_copper_soul_lantern", new LanternBlock(AbstractBlock.Settings.copy(COPPER_SOUL_LANTERN)));
@@ -123,4 +135,26 @@ public class ModBlocks {
     public static final Block WAXED_EXPOSED_COPPER_TRAPDOOR = registerBlock("waxed_exposed_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.copy(EXPOSED_COPPER_TRAPDOOR), BlockSetType.IRON));
     public static final Block WAXED_WEATHERED_COPPER_TRAPDOOR = registerBlock("waxed_weathered_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.copy(WEATHERED_COPPER_TRAPDOOR), BlockSetType.IRON));
     public static final Block WAXED_OXIDIZED_COPPER_TRAPDOOR = registerBlock("waxed_oxidized_copper_trapdoor", new TrapdoorBlock(FabricBlockSettings.copy(OXIDIZED_COPPER_TRAPDOOR), BlockSetType.IRON));
+    //Stairs
+    //Not-Waxed
+    public static final Block COPPER_BLOCK_STAIRS = registerBlock("copper_block_stairs", new OxidizableStairsBlock(Oxidizable.OxidationLevel.UNAFFECTED, Blocks.COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copy(COPPER_BLOCK)));
+    public static final Block EXPOSED_COPPER_BLOCK_STAIRS = registerBlock("exposed_copper_block_stairs", new OxidizableStairsBlock(Oxidizable.OxidationLevel.EXPOSED, Blocks.COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copy(COPPER_BLOCK)));
+    public static final Block WEATHERED_COPPER_BLOCK_STAIRS = registerBlock("weathered_copper_block_stairs", new OxidizableStairsBlock(Oxidizable.OxidationLevel.WEATHERED, Blocks.COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copy(COPPER_BLOCK)));
+    public static final Block OXIDIZED_COPPER_BLOCK_STAIRS = registerBlock("oxidized_copper_block_stairs", new OxidizableStairsBlock(Oxidizable.OxidationLevel.OXIDIZED, Blocks.COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copy(COPPER_BLOCK)));
+    //Waxed
+    public static final Block WAXED_COPPER_BLOCK_STAIRS = registerBlock("waxed_copper_block_stairs", new StairsBlock(Blocks.WAXED_COPPER_BLOCK.getDefaultState(), FabricBlockSettings.copy(WAXED_COPPER_BLOCK)));
+    public static final Block WAXED_EXPOSED_COPPER_BLOCK_STAIRS = registerBlock("waxed_exposed_copper_block_stairs", new StairsBlock(Blocks.WAXED_EXPOSED_COPPER.getDefaultState(), FabricBlockSettings.copy(WAXED_EXPOSED_COPPER)));
+    public static final Block WAXED_WEATHERED_COPPER_BLOCK_STAIRS = registerBlock("waxed_weathered_copper_block_stairs", new StairsBlock(Blocks.WAXED_WEATHERED_COPPER.getDefaultState(), FabricBlockSettings.copy(WAXED_WEATHERED_COPPER)));
+    public static final Block WAXED_OXIDIZED_COPPER_BLOCK_STAIRS = registerBlock("waxed_oxidized_copper_block_stairs", new StairsBlock(Blocks.WAXED_OXIDIZED_COPPER.getDefaultState(), FabricBlockSettings.copy(WAXED_OXIDIZED_COPPER)));
+    //Slabs
+    //Not-Waxed
+    public static final Block COPPER_BLOCK_SLAB = registerBlock("copper_block_slab", new OxidizableSlabBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copy(COPPER_BLOCK)));
+    public static final Block EXPOSED_COPPER_BLOCK_SLAB = registerBlock("exposed_copper_block_slab", new OxidizableSlabBlock(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copy(EXPOSED_COPPER)));
+    public static final Block WEATHERED_COPPER_BLOCK_SLAB = registerBlock("weathered_copper_block_slab", new OxidizableSlabBlock(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copy(WEATHERED_COPPER)));
+    public static final Block OXIDIZED_COPPER_BLOCK_SLAB = registerBlock("oxidized_copper_block_slab", new OxidizableSlabBlock(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copy(OXIDIZED_COPPER)));
+    //Waxed
+    public static final Block WAXED_COPPER_BLOCK_SLAB = registerBlock("waxed_copper_block_slab", new SlabBlock(FabricBlockSettings.copy(WAXED_COPPER_BLOCK)));
+    public static final Block WAXED_EXPOSED_COPPER_BLOCK_SLAB = registerBlock("waxed_exposed_copper_block_slab", new SlabBlock(FabricBlockSettings.copy(WAXED_EXPOSED_COPPER)));
+    public static final Block WAXED_WEATHERED_COPPER_BLOCK_SLAB = registerBlock("waxed_weathered_copper_block_slab", new SlabBlock(FabricBlockSettings.copy(WAXED_WEATHERED_COPPER)));
+    public static final Block WAXED_OXIDIZED_COPPER_BLOCK_SLAB = registerBlock("waxed_oxidized_copper_block_slab", new SlabBlock(FabricBlockSettings.copy(WAXED_OXIDIZED_COPPER)));
 }

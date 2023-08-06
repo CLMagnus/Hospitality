@@ -14,8 +14,20 @@ public class CreativeTabs {
             content.addAfter(CHAIN, LANTERN);
             content.addAfter(LANTERN, SOUL_LANTERN);
 
+            //Netherite
+            content.addAfter(NETHERITE_BLOCK, NETHERITE_BLOCK_STAIRS);
+            content.addAfter(NETHERITE_BLOCK_STAIRS, NETHERITE_BLOCK_SLAB);
+            content.addAfter(NETHERITE_BLOCK_SLAB, NETHERITE_BARS);
+            content.addAfter(NETHERITE_BARS, NETHERITE_DOOR);
+            content.addAfter(NETHERITE_DOOR, NETHERITE_TRAPDOOR);
+            content.addAfter(NETHERITE_TRAPDOOR, NETHERITE_CHAIN);
+            content.addAfter(NETHERITE_CHAIN, NETHERITE_LANTERN);
+            content.addAfter(NETHERITE_LANTERN, NETHERITE_SOUL_LANTERN);
+
             //Gold
-            content.addAfter(GOLD_BLOCK, GOLD_BARS);
+            content.addAfter(GOLD_BLOCK, GOLD_BLOCK_STAIRS);
+            content.addAfter(GOLD_BLOCK_STAIRS, GOLD_BLOCK_SLAB);
+            content.addAfter(GOLD_BLOCK_SLAB, GOLD_BARS);
             content.addAfter(GOLD_BARS, GOLD_DOOR);
             content.addAfter(GOLD_DOOR, GOLD_TRAPDOOR);
             content.addAfter(LIGHT_WEIGHTED_PRESSURE_PLATE, GOLD_CHAIN);
@@ -24,7 +36,9 @@ public class CreativeTabs {
 
             //Silver
             content.addAfter(GOLD_SOUL_LANTERN, SILVER_BLOCK);
-            content.addAfter(SILVER_BLOCK, SILVER_BARS);
+            content.addAfter(SILVER_BLOCK, SILVER_BLOCK_STAIRS);
+            content.addAfter(SILVER_BLOCK_STAIRS, SILVER_BLOCK_SLAB);
+            content.addAfter(SILVER_BLOCK_SLAB, SILVER_BARS);
             content.addAfter(SILVER_BARS, SILVER_DOOR);
             content.addAfter(SILVER_DOOR, SILVER_TRAPDOOR);
             content.addAfter(SILVER_TRAPDOOR, SILVER_CHAIN);
