@@ -9,8 +9,8 @@
       "###"
     ],
     "result": {
-      "count" : "6",
+      "count" : 6,
       "item": "hospitality:iron_block_slab"
     },
     "show_notification": true
-  }
+}

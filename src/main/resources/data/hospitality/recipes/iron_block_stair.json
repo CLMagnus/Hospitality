@@ -11,8 +11,8 @@
       "###"
     ],
     "result": {
-      "count" : "4",
+      "count" : 4,
       "item": "hospitality:iron_block_stairs"
     },
     "show_notification": true
-  }
+}

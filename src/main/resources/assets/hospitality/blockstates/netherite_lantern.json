@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "hospitality:block/gold_lantern"
+    },
+    "hanging=true": {
+      "model": "hospitality:block/gold_lantern_hanging"
+    }
+  }
+}

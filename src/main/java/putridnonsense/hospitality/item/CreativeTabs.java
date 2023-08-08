@@ -50,6 +50,9 @@ public class CreativeTabs {
             content.addAfter(IRON_BLOCK_STAIRS, IRON_BLOCK_SLAB);
 
             //Copper
+            content.addAfter(COPPER_BLOCK, COPPER_BLOCK_STAIRS);
+            content.addAfter(COPPER_BLOCK_STAIRS, COPPER_BLOCK_SLAB);
+            content.addAfter(CUT_COPPER_SLAB, COPPER_BARS);
             content.addAfter(CUT_COPPER_SLAB, COPPER_BARS);
             content.addAfter(COPPER_BARS, COPPER_DOOR);
             content.addAfter(COPPER_DOOR, COPPER_TRAPDOOR);
@@ -58,6 +61,8 @@ public class CreativeTabs {
             content.addAfter(COPPER_LANTERN, COPPER_SOUL_LANTERN);
 
             //Exposed Copper
+            content.addAfter(EXPOSED_COPPER, EXPOSED_COPPER_BLOCK_STAIRS);
+            content.addAfter(EXPOSED_COPPER_BLOCK_STAIRS, EXPOSED_COPPER_BLOCK_SLAB);
             content.addAfter(EXPOSED_CUT_COPPER_SLAB, EXPOSED_COPPER_BARS);
             content.addAfter(EXPOSED_COPPER_BARS, EXPOSED_COPPER_DOOR);
             content.addAfter(EXPOSED_COPPER_DOOR, EXPOSED_COPPER_TRAPDOOR);
@@ -66,6 +71,8 @@ public class CreativeTabs {
             content.addAfter(EXPOSED_COPPER_LANTERN, EXPOSED_COPPER_SOUL_LANTERN);
 
             //Weathered Copper
+            content.addAfter(WEATHERED_COPPER, WEATHERED_COPPER_BLOCK_STAIRS);
+            content.addAfter(WEATHERED_COPPER_BLOCK_STAIRS, WEATHERED_COPPER_BLOCK_SLAB);
             content.addAfter(WEATHERED_CUT_COPPER_SLAB, WEATHERED_COPPER_BARS);
             content.addAfter(WEATHERED_COPPER_BARS, WEATHERED_COPPER_DOOR);
             content.addAfter(WEATHERED_COPPER_DOOR, WEATHERED_COPPER_TRAPDOOR);
@@ -74,6 +81,8 @@ public class CreativeTabs {
             content.addAfter(WEATHERED_COPPER_LANTERN, WEATHERED_COPPER_SOUL_LANTERN);
 
             //Oxidised Copper
+            content.addAfter(OXIDIZED_COPPER, OXIDIZED_COPPER_BLOCK_STAIRS);
+            content.addAfter(OXIDIZED_COPPER_BLOCK_STAIRS, OXIDIZED_COPPER_BLOCK_SLAB);
             content.addAfter(OXIDIZED_CUT_COPPER_SLAB, OXIDIZED_COPPER_BARS);
             content.addAfter(OXIDIZED_COPPER_BARS, OXIDIZED_COPPER_DOOR);
             content.addAfter(OXIDIZED_COPPER_DOOR, OXIDIZED_COPPER_TRAPDOOR);
@@ -82,6 +91,8 @@ public class CreativeTabs {
             content.addAfter(OXIDIZED_COPPER_LANTERN, OXIDIZED_COPPER_SOUL_LANTERN);
 
             //Waxed Copper
+            content.addAfter(WAXED_COPPER_BLOCK, WAXED_COPPER_BLOCK_STAIRS);
+            content.addAfter(WAXED_COPPER_BLOCK_STAIRS, WAXED_COPPER_BLOCK_SLAB);
             content.addAfter(WAXED_CUT_COPPER_SLAB, WAXED_COPPER_BARS);
             content.addAfter(WAXED_COPPER_BARS, WAXED_COPPER_DOOR);
             content.addAfter(WAXED_COPPER_DOOR, WAXED_COPPER_TRAPDOOR);
@@ -90,6 +101,8 @@ public class CreativeTabs {
             content.addAfter(WAXED_COPPER_LANTERN, WAXED_COPPER_SOUL_LANTERN);
 
             //Waxed Exposed Copper
+            content.addAfter(WAXED_EXPOSED_COPPER, WAXED_EXPOSED_COPPER_BLOCK_STAIRS);
+            content.addAfter(WAXED_EXPOSED_COPPER_BLOCK_STAIRS, WAXED_EXPOSED_COPPER_BLOCK_SLAB);
             content.addAfter(WAXED_EXPOSED_CUT_COPPER_SLAB, WAXED_EXPOSED_COPPER_BARS);
             content.addAfter(WAXED_EXPOSED_COPPER_BARS, WAXED_EXPOSED_COPPER_DOOR);
             content.addAfter(WAXED_EXPOSED_COPPER_DOOR, WAXED_EXPOSED_COPPER_TRAPDOOR);
@@ -98,6 +111,8 @@ public class CreativeTabs {
             content.addAfter(WAXED_EXPOSED_COPPER_LANTERN, WAXED_EXPOSED_COPPER_SOUL_LANTERN);
 
             //Waxed Weathered Copper
+            content.addAfter(WAXED_WEATHERED_COPPER, WAXED_WEATHERED_COPPER_BLOCK_STAIRS);
+            content.addAfter(WAXED_WEATHERED_COPPER_BLOCK_STAIRS, WAXED_WEATHERED_COPPER_BLOCK_SLAB);
             content.addAfter(WAXED_WEATHERED_CUT_COPPER_SLAB, WAXED_WEATHERED_COPPER_BARS);
             content.addAfter(WAXED_WEATHERED_COPPER_BARS, WAXED_WEATHERED_COPPER_DOOR);
             content.addAfter(WAXED_WEATHERED_COPPER_DOOR, WAXED_WEATHERED_COPPER_TRAPDOOR);
@@ -106,6 +121,8 @@ public class CreativeTabs {
             content.addAfter(WAXED_WEATHERED_COPPER_LANTERN, WAXED_WEATHERED_COPPER_SOUL_LANTERN);
 
             //Waxed Oxidised Copper
+            content.addAfter(WAXED_OXIDIZED_COPPER, WAXED_OXIDIZED_COPPER_BLOCK_STAIRS);
+            content.addAfter(WAXED_OXIDIZED_COPPER_BLOCK_STAIRS, WAXED_OXIDIZED_COPPER_BLOCK_SLAB);
             content.addAfter(WAXED_OXIDIZED_CUT_COPPER_SLAB, WAXED_OXIDIZED_COPPER_BARS);
             content.addAfter(WAXED_OXIDIZED_COPPER_BARS, WAXED_OXIDIZED_COPPER_DOOR);
             content.addAfter(WAXED_OXIDIZED_COPPER_DOOR, WAXED_OXIDIZED_COPPER_TRAPDOOR);
