@@ -1,0 +1,11 @@
+{
+  "parent": "hospitality:block/template_inner_stairs",
+  "textures": {
+    "up": "hospitality:block/netherite_block/stairs_south_upside_down",
+    "down": "minecraft:block/netherite_block",
+    "north": "hospitality:block/netherite_block/stairs_south_upside_down",
+    "south": "minecraft:block/netherite_block",
+    "west": "hospitality:block/netherite_block/stairs_north_upside_down",
+    "east": "minecraft:block/netherite_block"
+  }
+}
