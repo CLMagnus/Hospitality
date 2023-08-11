@@ -142,6 +142,7 @@ public class CreativeTabs {
             content.addAfter(COPPER_INGOT, SILVER_INGOT);
             content.addAfter(IRON_NUGGET, COPPER_NUGGET);
             content.addAfter(COPPER_NUGGET, SILVER_NUGGET);
+            content.addAfter(SILVER_NUGGET, NETHERITE_NUGGET);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> {

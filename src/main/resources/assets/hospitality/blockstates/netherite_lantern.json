@@ -1,10 +1,10 @@
 {
   "variants": {
     "hanging=false": {
-      "model": "hospitality:block/gold_lantern"
+      "model": "hospitality:block/netherite_lantern"
     },
     "hanging=true": {
-      "model": "hospitality:block/gold_lantern_hanging"
+      "model": "hospitality:block/netherite_lantern_hanging"
     }
   }
 }

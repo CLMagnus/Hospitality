@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "hospitality:item/gold_door"
+    "layer0": "hospitality:item/netherite_door"
   }
 }

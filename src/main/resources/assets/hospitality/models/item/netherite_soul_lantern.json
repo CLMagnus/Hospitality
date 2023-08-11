@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "hospitality:item/gold_soul_lantern"
+    "layer0": "hospitality:item/netherite_soul_lantern"
   }
 }

@@ -21,4 +21,5 @@ public class ModItems {
     public static final Item SILVER_NUGGET = registerItem("silver_nugget", new Item(new FabricItemSettings()));
     public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new FabricItemSettings()));
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
+    public static final Item NETHERITE_NUGGET = registerItem("netherite_nugget", new Item(new FabricItemSettings()));
 }
