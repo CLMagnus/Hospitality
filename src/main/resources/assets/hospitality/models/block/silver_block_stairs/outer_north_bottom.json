@@ -1,0 +1,11 @@
+{
+  "parent": "hospitality:block/template_outer_stairs",
+  "textures": {
+    "up": "hospitality:block/iron_block/stairs_south",
+    "down": "hospitality:block/silver_block",
+    "north": "hospitality:block/iron_block/stairs_corner_1",
+    "south": "hospitality:block/iron_block/stairs_south",
+    "west": "hospitality:block/iron_block/stairs_corner_1",
+    "east": "hospitality:block/iron_block/stairs_north"
+  }
+}
