@@ -1,11 +1,11 @@
 {
   "parent": "hospitality:block/template_inner_stairs",
   "textures": {
-    "up": "hospitality:block/iron_block/stairs_north_upside_down",
+    "up": "hospitality:block/silver_block/stairs_north_upside_down",
     "down": "hospitality:block/silver_block",
-    "north": "hospitality:block/iron_block/stairs_south_upside_down",
+    "north": "hospitality:block/silver_block/stairs_south_upside_down",
     "south": "hospitality:block/silver_block",
-    "west": "hospitality:block/iron_block/stairs_north_upside_down",
+    "west": "hospitality:block/silver_block/stairs_north_upside_down",
     "east": "hospitality:block/silver_block"
   }
 }

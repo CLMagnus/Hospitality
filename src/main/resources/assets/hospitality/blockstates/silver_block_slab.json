@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hospitality:block/silver_block_slab"
+    },
+    "type=double": {
+      "model": "hospitality:block/silver_block_slab_double"
+    },
+    "type=top": {
+      "model": "hospitality:block/silver_block_slab_top"
+    }
+  }
+}

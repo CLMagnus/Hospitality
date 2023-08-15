@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "bottom": "minecraft:block/gold_block",
-    "side": "hospitality:block/gold_block/slab_side",
-    "top": "minecraft:block/gold_block"
+    "bottom": "hospitality:block/silver_block",
+    "side": "hospitality:block/silver_block/slab_side",
+    "top": "hospitality:block/silver_block"
   }
 }

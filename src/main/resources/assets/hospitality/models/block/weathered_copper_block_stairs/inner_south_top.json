@@ -1,11 +1,11 @@
 {
   "parent": "hospitality:block/template_inner_stairs",
   "textures": {
-    "up": "hospitality:block/iron_block/stairs_north_upside_down",
+    "up": "hospitality:block/weathered_copper_block/stairs_north_upside_down",
     "down": "minecraft:block/weathered_copper",
-    "north": "hospitality:block/iron_block/stairs_south_upside_down",
+    "north": "hospitality:block/weathered_copper_block/stairs_south_upside_down",
     "south": "minecraft:block/weathered_copper",
-    "west": "hospitality:block/iron_block/stairs_north_upside_down",
+    "west": "hospitality:block/weathered_copper_block/stairs_north_upside_down",
     "east": "minecraft:block/weathered_copper"
   }
 }
