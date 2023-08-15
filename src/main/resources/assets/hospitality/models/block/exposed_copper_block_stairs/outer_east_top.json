@@ -4,8 +4,8 @@
     "up": "hospitality:block/iron_block/stairs_north",
     "down": "minecraft:block/exposed_copper",
     "north": "hospitality:block/iron_block/stairs_corner_2",
-    "south": "hospitality:block/iron_block/stairs_south",
+    "south": "hospitality:block/iron_block/stairs_north_upside_down",
     "west": "hospitality:block/iron_block/stairs_corner_2",
-    "east": "hospitality:block/iron_block/stairs_north"
+    "east": "hospitality:block/iron_block/stairs_south_upside_down"
   }
 }
