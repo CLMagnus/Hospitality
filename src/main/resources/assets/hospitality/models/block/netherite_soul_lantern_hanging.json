@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_hanging_lantern",
   "textures": {
-    "lantern": "hospitality:block/gold_soul_lantern"
+    "lantern": "hospitality:block/netherite_soul_lantern"
   }
 }

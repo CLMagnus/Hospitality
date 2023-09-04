@@ -1,8 +1,8 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "hospitality:block/copper_bars",
-        "bars": "hospitality:block/copper_bars"
+        "particle": "hospitality:block/netherite_bars",
+        "bars": "hospitality:block/netherite_bars"
     },
     "elements": [
         {   "from": [ 8, 0, 7 ],

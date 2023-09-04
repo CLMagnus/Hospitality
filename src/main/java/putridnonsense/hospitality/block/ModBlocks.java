@@ -57,12 +57,12 @@ public class ModBlocks {
     public static final Block IRON_BLOCK_SLAB = registerBlock("iron_block_slab", new SlabBlock(FabricBlockSettings.copy(IRON_BLOCK)));
 
     //Netherite
-    public static final Block NETHERITE_BARS = registerBlock("netherite_bars", new PaneBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).nonOpaque()));
-    public static final Block NETHERITE_DOOR = registerBlock("netherite_door", new DoorBlock(FabricBlockSettings.of(Material.METAL, MapColor.IRON_GRAY).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.GOLD));
-    public static final Block NETHERITE_TRAPDOOR = registerBlock("netherite_trapdoor", new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0F).nonOpaque(), BlockSetType.GOLD));
-    public static final Block NETHERITE_CHAIN = registerBlock("netherite_chain", new ChainBlock(FabricBlockSettings.of(Material.METAL, MapColor.CLEAR).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
-    public static final Block NETHERITE_LANTERN = registerBlock("netherite_lantern", new LanternBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block NETHERITE_SOUL_LANTERN = registerBlock("netherite_soul_lantern", new LanternBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block NETHERITE_BARS = registerBlock("netherite_bars", new PaneBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).nonOpaque()));
+    public static final Block NETHERITE_DOOR = registerBlock("netherite_door", new DoorBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).nonOpaque(), BlockSetType.GOLD));
+    public static final Block NETHERITE_TRAPDOOR = registerBlock("netherite_trapdoor", new TrapdoorBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).nonOpaque(), BlockSetType.GOLD));
+    public static final Block NETHERITE_CHAIN = registerBlock("netherite_chain", new ChainBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
+    public static final Block NETHERITE_LANTERN = registerBlock("netherite_lantern", new LanternBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
+    public static final Block NETHERITE_SOUL_LANTERN = registerBlock("netherite_soul_lantern", new LanternBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
     public static final Block NETHERITE_BLOCK_STAIRS = registerBlock("netherite_block_stairs", new StairsBlock(Blocks.NETHERITE_BLOCK.getDefaultState(), FabricBlockSettings.copy(NETHERITE_BLOCK)));
     public static final Block NETHERITE_BLOCK_SLAB = registerBlock("netherite_block_slab", new SlabBlock(FabricBlockSettings.copy(NETHERITE_BLOCK)));
 

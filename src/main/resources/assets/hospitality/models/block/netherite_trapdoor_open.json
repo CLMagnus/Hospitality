@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_trapdoor_open",
   "textures": {
-    "texture": "hospitality:block/gold_trapdoor"
+    "texture": "hospitality:block/netherite_trapdoor"
   }
 }

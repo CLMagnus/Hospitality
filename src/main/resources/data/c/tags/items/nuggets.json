@@ -1,4 +1,4 @@
 {
   "replace": false,
-  "values": ["hospitality:copper_nugget", "hospitality:silver_nugget"]
+  "values": ["hospitality:copper_nugget", "hospitality:silver_nugget","hospitality:netherite_nugget"]
 }
