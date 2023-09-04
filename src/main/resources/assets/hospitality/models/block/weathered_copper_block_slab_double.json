@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "minecraft:block/gold_block",
-    "side": "hospitality:block/gold_block/slab_side"
+    "end": "minecraft:block/weathered_copper",
+    "side": "hospitality:block/weathered_copper_block/slab_side"
   }
 }
