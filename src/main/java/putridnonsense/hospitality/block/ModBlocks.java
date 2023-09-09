@@ -37,8 +37,8 @@ public class ModBlocks {
     public static final Block SILVER_DOOR = registerBlock("silver_door", new DoorBlock(FabricBlockSettings.copy(SILVER_BLOCK).nonOpaque(), BlockSetType.GOLD));
     public static final Block SILVER_TRAPDOOR = registerBlock("silver_trapdoor", new TrapdoorBlock(FabricBlockSettings.copy(SILVER_BLOCK).nonOpaque(), BlockSetType.GOLD));
     public static final Block SILVER_CHAIN = registerBlock("silver_chain", new ChainBlock(FabricBlockSettings.copy(SILVER_BLOCK).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
-    public static final Block SILVER_LANTERN = registerBlock("silver_lantern", new LanternBlock(FabricBlockSettings.copy(SILVER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block SILVER_SOUL_LANTERN = registerBlock("silver_soul_lantern", new LanternBlock(FabricBlockSettings.copy(SILVER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block SILVER_LANTERN = registerBlock("silver_lantern", new LanternBlock(FabricBlockSettings.copy(SILVER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 15).nonOpaque()));
+    public static final Block SILVER_SOUL_LANTERN = registerBlock("silver_soul_lantern", new LanternBlock(FabricBlockSettings.copy(SILVER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 10).nonOpaque()));
     public static final Block SILVER_BLOCK_STAIRS = registerBlock("silver_block_stairs", new StairsBlock(SILVER_BLOCK.getDefaultState(), FabricBlockSettings.copy(SILVER_BLOCK)));
     public static final Block SILVER_BLOCK_SLAB = registerBlock("silver_block_slab", new SlabBlock(FabricBlockSettings.copy(SILVER_BLOCK)));
 
@@ -47,8 +47,8 @@ public class ModBlocks {
     public static final Block GOLD_DOOR = registerBlock("gold_door", new DoorBlock(FabricBlockSettings.copy(GOLD_BLOCK).nonOpaque(), BlockSetType.GOLD));
     public static final Block GOLD_TRAPDOOR = registerBlock("gold_trapdoor", new TrapdoorBlock(FabricBlockSettings.copy(GOLD_BLOCK).nonOpaque(), BlockSetType.GOLD));
     public static final Block GOLD_CHAIN = registerBlock("gold_chain", new ChainBlock(FabricBlockSettings.copy(GOLD_BLOCK).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
-    public static final Block GOLD_LANTERN = registerBlock("gold_lantern", new LanternBlock(FabricBlockSettings.copy(GOLD_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block GOLD_SOUL_LANTERN = registerBlock("gold_soul_lantern", new LanternBlock(FabricBlockSettings.copy(GOLD_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block GOLD_LANTERN = registerBlock("gold_lantern", new LanternBlock(FabricBlockSettings.copy(GOLD_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 15).nonOpaque()));
+    public static final Block GOLD_SOUL_LANTERN = registerBlock("gold_soul_lantern", new LanternBlock(FabricBlockSettings.copy(GOLD_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 10).nonOpaque()));
     public static final Block GOLD_BLOCK_STAIRS = registerBlock("gold_block_stairs", new StairsBlock(Blocks.GOLD_BLOCK.getDefaultState(), FabricBlockSettings.copy(GOLD_BLOCK)));
     public static final Block GOLD_BLOCK_SLAB = registerBlock("gold_block_slab", new SlabBlock(FabricBlockSettings.copy(GOLD_BLOCK)));
 
@@ -61,8 +61,8 @@ public class ModBlocks {
     public static final Block NETHERITE_DOOR = registerBlock("netherite_door", new DoorBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).nonOpaque(), BlockSetType.GOLD));
     public static final Block NETHERITE_TRAPDOOR = registerBlock("netherite_trapdoor", new TrapdoorBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).nonOpaque(), BlockSetType.GOLD));
     public static final Block NETHERITE_CHAIN = registerBlock("netherite_chain", new ChainBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.CHAIN).nonOpaque()));
-    public static final Block NETHERITE_LANTERN = registerBlock("netherite_lantern", new LanternBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block NETHERITE_SOUL_LANTERN = registerBlock("netherite_soul_lantern", new LanternBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block NETHERITE_LANTERN = registerBlock("netherite_lantern", new LanternBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 15).nonOpaque()));
+    public static final Block NETHERITE_SOUL_LANTERN = registerBlock("netherite_soul_lantern", new LanternBlock(FabricBlockSettings.copy(NETHERITE_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 10).nonOpaque()));
     public static final Block NETHERITE_BLOCK_STAIRS = registerBlock("netherite_block_stairs", new StairsBlock(Blocks.NETHERITE_BLOCK.getDefaultState(), FabricBlockSettings.copy(NETHERITE_BLOCK)));
     public static final Block NETHERITE_BLOCK_SLAB = registerBlock("netherite_block_slab", new SlabBlock(FabricBlockSettings.copy(NETHERITE_BLOCK)));
 
@@ -85,14 +85,14 @@ public class ModBlocks {
     public static final Block WAXED_OXIDIZED_COPPER_CHAIN = registerBlock("waxed_oxidized_copper_chain", new ChainBlock(FabricBlockSettings.copy(OXIDIZED_COPPER_CHAIN)));
     //Lanterns
     //Not-Waxed
-    public static final Block COPPER_LANTERN = registerBlock("copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copy(COPPER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block COPPER_SOUL_LANTERN = registerBlock("copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copy(COPPER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
-    public static final Block EXPOSED_COPPER_LANTERN = registerBlock("exposed_copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copy(EXPOSED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block EXPOSED_COPPER_SOUL_LANTERN = registerBlock("exposed_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copy(EXPOSED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
-    public static final Block WEATHERED_COPPER_LANTERN = registerBlock("weathered_copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copy(WEATHERED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block WEATHERED_COPPER_SOUL_LANTERN = registerBlock("weathered_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copy(WEATHERED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
-    public static final Block OXIDIZED_COPPER_LANTERN = registerBlock("oxidized_copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copy(OXIDIZED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 15;}).nonOpaque()));
-    public static final Block OXIDIZED_COPPER_SOUL_LANTERN = registerBlock("oxidized_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copy(OXIDIZED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {return 10;}).nonOpaque()));
+    public static final Block COPPER_LANTERN = registerBlock("copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copy(COPPER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 15).nonOpaque()));
+    public static final Block COPPER_SOUL_LANTERN = registerBlock("copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copy(COPPER_BLOCK).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 10).nonOpaque()));
+    public static final Block EXPOSED_COPPER_LANTERN = registerBlock("exposed_copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copy(EXPOSED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 15).nonOpaque()));
+    public static final Block EXPOSED_COPPER_SOUL_LANTERN = registerBlock("exposed_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copy(EXPOSED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 10).nonOpaque()));
+    public static final Block WEATHERED_COPPER_LANTERN = registerBlock("weathered_copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copy(WEATHERED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 15).nonOpaque()));
+    public static final Block WEATHERED_COPPER_SOUL_LANTERN = registerBlock("weathered_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copy(WEATHERED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 10).nonOpaque()));
+    public static final Block OXIDIZED_COPPER_LANTERN = registerBlock("oxidized_copper_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copy(OXIDIZED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 15).nonOpaque()));
+    public static final Block OXIDIZED_COPPER_SOUL_LANTERN = registerBlock("oxidized_copper_soul_lantern", new OxidizableLantern(Oxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copy(OXIDIZED_COPPER).sounds(BlockSoundGroup.LANTERN).luminance((state) -> 10).nonOpaque()));
     //Waxed
     public static final Block WAXED_COPPER_LANTERN = registerBlock("waxed_copper_lantern", new LanternBlock(FabricBlockSettings.copy(COPPER_LANTERN)));
     public static final Block WAXED_COPPER_SOUL_LANTERN = registerBlock("waxed_copper_soul_lantern", new LanternBlock(FabricBlockSettings.copy(COPPER_SOUL_LANTERN)));
