@@ -9,7 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.item.Item;
+
 import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
@@ -22,8 +22,8 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, new Identifier(Hospitality.MOD_ID, name), block);
     }
 
-    public static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, new Identifier(Hospitality.MOD_ID, name),
+    public static void registerBlockItem(String name, Block block){
+        Registry.register(Registries.ITEM, new Identifier(Hospitality.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 
