@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "hospitality:block/silver_block"
+      "model": "hospitality:block/deepslate_silver_ore"
     }
   }
 }
