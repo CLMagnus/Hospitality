@@ -70,6 +70,7 @@ public class ModBlocks {
     //public static final Block OAK_CHAIR = registerBlock("OAK_CHAIR", new ChairBlock(FabricBlockSettings.copy(OAK_PLANKS)));
 
     //Tables
+    public static final Block OAK_TABLE = registerBlock("oak_table", new TableBlock(FabricBlockSettings.copy(OAK_PLANKS)));
 
     //Copper
     //Chains

@@ -23,8 +23,6 @@ public class Hospitality implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("hospitality");
 	public static final String MOD_ID = "hospitality";
 
-	//TODO: MAKE CHAIRS A CUSTOM CLASS https://fabricmc.net/wiki/tutorial:blocks#creating_a_custom_block_class
-
 	@Override
 	public void onInitialize() {
 		//For Logs
