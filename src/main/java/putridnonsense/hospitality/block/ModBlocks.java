@@ -71,6 +71,14 @@ public class ModBlocks {
 
     //Tables
     public static final Block OAK_TABLE = registerBlock("oak_table", new TableBlock(FabricBlockSettings.copy(OAK_PLANKS)));
+    public static final Block SPRUCE_TABLE = registerBlock("spruce_table", new TableBlock(FabricBlockSettings.copy(SPRUCE_PLANKS)));
+    public static final Block BIRCH_TABLE = registerBlock("birch_table", new TableBlock(FabricBlockSettings.copy(BIRCH_PLANKS)));
+    public static final Block JUNGLE_TABLE = registerBlock("jungle_table", new TableBlock(FabricBlockSettings.copy(JUNGLE_PLANKS)));
+    public static final Block ACACIA_TABLE = registerBlock("acacia_table", new TableBlock(FabricBlockSettings.copy(ACACIA_PLANKS)));
+    public static final Block DARK_OAK_TABLE = registerBlock("dark_oak_table", new TableBlock(FabricBlockSettings.copy(DARK_OAK_PLANKS)));
+    public static final Block MANGROVE_TABLE = registerBlock("mangrove_table", new TableBlock(FabricBlockSettings.copy(MANGROVE_PLANKS)));
+    public static final Block CRIMSON_TABLE = registerBlock("crimson_table", new TableBlock(FabricBlockSettings.copy(CRIMSON_PLANKS)));
+    public static final Block WARPED_TABLE = registerBlock("warped_table", new TableBlock(FabricBlockSettings.copy(WARPED_PLANKS)));
 
     //Copper
     //Chains

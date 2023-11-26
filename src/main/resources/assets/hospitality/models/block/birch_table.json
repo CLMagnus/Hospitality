@@ -1,6 +1,6 @@
 {
   "parent": "hospitality:block/template_table",
   "textures": {
-    "all": "minecraft:block/oak_planks"
+    "all": "minecraft:block/birch_planks"
   }
 }

@@ -10,6 +10,17 @@ import static putridnonsense.hospitality.item.ModItems.*;
 public class CreativeTabs {
     public static void registerTabItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
+            //Tables and Chairs
+            content.addAfter(OAK_BUTTON, OAK_TABLE);
+            content.addAfter(SPRUCE_BUTTON, SPRUCE_TABLE);
+            content.addAfter(BIRCH_BUTTON, BIRCH_TABLE);
+            content.addAfter(JUNGLE_BUTTON, JUNGLE_TABLE);
+            content.addAfter(ACACIA_BUTTON, ACACIA_TABLE);
+            content.addAfter(DARK_OAK_BUTTON, DARK_OAK_TABLE);
+            content.addAfter(MANGROVE_BUTTON, MANGROVE_TABLE);
+            content.addAfter(CRIMSON_BUTTON, CRIMSON_TABLE);
+            content.addAfter(WARPED_BUTTON, WARPED_TABLE);
+
             //Parity
             content.addAfter(CHAIN, LANTERN);
             content.addAfter(LANTERN, SOUL_LANTERN);

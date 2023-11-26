@@ -97,5 +97,14 @@
 	"block.hospitality.waxed_oxidized_copper_lantern" : "Waxed Oxidized Copper Lantern",
 	"block.hospitality.waxed_oxidized_copper_soul_lantern" : "Waxed Oxidized Copper Soul Lantern",
 	"block.hospitality.iron_block_slab" : "Block of Iron Slab",
-	"block.hospitality.iron_block_stairs" : "Block of Iron Stairs"
+	"block.hospitality.iron_block_stairs" : "Block of Iron Stairs",
+	"block.hospitality.oak_table" : "Oak Table",
+	"block.hospitality.spruce_table" : "Spruce Table",
+	"block.hospitality.birch_table" : "Birch Table",
+	"block.hospitality.jungle_table" : "Jungle Table",
+	"block.hospitality.acacia_table" : "Acacia Table",
+	"block.hospitality.dark_oak_table" : "Dark Oak Table",
+	"block.hospitality.mangrove_table" : "Mangrove Table",
+	"block.hospitality.crimson_table" : "Crimson Table",
+	"block.hospitality.warped_table" : "Warped Table"
 }
