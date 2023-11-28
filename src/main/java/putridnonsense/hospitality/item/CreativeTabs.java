@@ -172,5 +172,11 @@ public class CreativeTabs {
             content.addAfter(WAXED_COPPER_CHAIN, SILVER_CHAIN);
             content.addAfter(SILVER_CHAIN, GOLD_CHAIN);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(content -> {
+            content.addAfter(SPIDER_EYE, BREWERS_BLUDGEON);
+
+            //Crushed foods
+        });
     }
 }
