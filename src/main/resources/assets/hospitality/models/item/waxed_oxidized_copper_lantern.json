@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "hospitality:item/copper_lantern"
+    "layer0": "hospitality:item/oxidized_copper_lantern"
   }
 }

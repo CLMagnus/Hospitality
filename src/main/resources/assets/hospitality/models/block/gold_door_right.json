@@ -1,0 +1,6 @@
+{
+  "parent": "hospitality:block/template_door_left",
+  "textures": {
+    "texture": "hospitality:block/gold_door"
+  }
+}

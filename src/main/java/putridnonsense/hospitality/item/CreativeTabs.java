@@ -11,7 +11,8 @@ public class CreativeTabs {
     public static void registerTabItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
             //Tables and Chairs
-            content.addAfter(OAK_BUTTON, OAK_TABLE);
+            content.addAfter(OAK_BUTTON, OAK_CHAIR);
+            content.addAfter(OAK_CHAIR, OAK_TABLE);
             content.addAfter(SPRUCE_BUTTON, SPRUCE_TABLE);
             content.addAfter(BIRCH_BUTTON, BIRCH_TABLE);
             content.addAfter(JUNGLE_BUTTON, JUNGLE_TABLE);
@@ -59,6 +60,14 @@ public class CreativeTabs {
             //Iron
             content.addAfter(IRON_BLOCK, IRON_BLOCK_STAIRS);
             content.addAfter(IRON_BLOCK_STAIRS, IRON_BLOCK_SLAB);
+
+            //Diamond
+            content.addAfter(DIAMOND_BLOCK, DIAMOND_BLOCK_STAIRS);
+            content.addAfter(DIAMOND_BLOCK_STAIRS, DIAMOND_BLOCK_SLAB);
+
+            //Emerald
+            content.addAfter(EMERALD_BLOCK, EMERALD_BLOCK_STAIRS);
+            content.addAfter(EMERALD_BLOCK_STAIRS, EMERALD_BLOCK_SLAB);
 
             //Copper
             content.addAfter(COPPER_BLOCK, COPPER_BLOCK_STAIRS);

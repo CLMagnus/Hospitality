@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_left",
-  "textures": {
-    "bottom": "hospitality:block/netherite_door_bottom",
-    "top": "hospitality:block/netherite_door_top"
-  }
-}

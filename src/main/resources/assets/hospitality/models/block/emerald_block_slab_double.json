@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/emerald_block",
+    "side": "hospitality:block/emerald_block/slab_side"
+  }
+}

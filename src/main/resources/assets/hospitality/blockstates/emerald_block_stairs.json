@@ -1,0 +1,209 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_east_bottom",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_south_bottom"
+    },
+    "facing=east,half=bottom,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_east_bottom",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,half=bottom,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_south_bottom"
+    },
+    "facing=east,half=bottom,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/rotated"
+    },
+    "facing=east,half=top,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_north_top",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=east,half=top,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_east_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_north_top",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=east,half=top,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_east_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=east,half=top,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/rotated_upside_down",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,half=bottom,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_north_bottom",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_east_bottom",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_north_bottom",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=north,half=bottom,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_east_bottom",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,half=bottom,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/straight",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=north,half=top,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_west_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_north_top",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,half=top,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_west_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=north,half=top,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_north_top",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,half=top,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/upside_down",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=south,half=bottom,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_south_bottom"
+    },
+    "facing=south,half=bottom,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_west_bottom",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_south_bottom"
+    },
+    "facing=south,half=bottom,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_west_bottom",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,half=bottom,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/straight",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,half=top,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_east_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_south_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_east_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,half=top,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_south_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,half=top,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/upside_down",
+      "uvlock": true,
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_west_bottom",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_north_bottom",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_west_bottom",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=west,half=bottom,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_north_bottom",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,half=bottom,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/rotated",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,half=top,shape=inner_left": {
+      "model": "hospitality:block/emerald_block_stairs/inner_south_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=inner_right": {
+      "model": "hospitality:block/emerald_block_stairs/inner_west_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=outer_left": {
+      "model": "hospitality:block/emerald_block_stairs/outer_south_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    },
+    "facing=west,half=top,shape=outer_right": {
+      "model": "hospitality:block/emerald_block_stairs/outer_west_top",
+      "uvlock": true,
+      "x": 180,
+      "y": 270
+    },
+    "facing=west,half=top,shape=straight": {
+      "model": "hospitality:block/emerald_block_stairs/rotated_upside_down",
+      "uvlock": true,
+      "x": 180,
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "hospitality:block/template_outer_stairs",
+  "textures": {
+    "up": "hospitality:block/emerald_block/stairs_north",
+    "down": "minecraft:block/emerald_block",
+    "north": "hospitality:block/emerald_block/stairs_corner_1",
+    "south": "hospitality:block/emerald_block/stairs_south",
+    "west": "hospitality:block/emerald_block/stairs_corner_1",
+    "east": "hospitality:block/emerald_block/stairs_north"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "minecraft:block/emerald_block",
+    "side": "hospitality:block/emerald_block/slab_side",
+    "top": "minecraft:block/emerald_block"
+  }
+}

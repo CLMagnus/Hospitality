@@ -27,6 +27,20 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
 
+    //Chairs
+    public static final Block OAK_CHAIR = registerBlock("oak_chair", new ChairBlock(FabricBlockSettings.copy(OAK_PLANKS)));
+
+    //Tables
+    public static final Block OAK_TABLE = registerBlock("oak_table", new TableBlock(FabricBlockSettings.copy(OAK_PLANKS)));
+    public static final Block SPRUCE_TABLE = registerBlock("spruce_table", new TableBlock(FabricBlockSettings.copy(SPRUCE_PLANKS)));
+    public static final Block BIRCH_TABLE = registerBlock("birch_table", new TableBlock(FabricBlockSettings.copy(BIRCH_PLANKS)));
+    public static final Block JUNGLE_TABLE = registerBlock("jungle_table", new TableBlock(FabricBlockSettings.copy(JUNGLE_PLANKS)));
+    public static final Block ACACIA_TABLE = registerBlock("acacia_table", new TableBlock(FabricBlockSettings.copy(ACACIA_PLANKS)));
+    public static final Block DARK_OAK_TABLE = registerBlock("dark_oak_table", new TableBlock(FabricBlockSettings.copy(DARK_OAK_PLANKS)));
+    public static final Block MANGROVE_TABLE = registerBlock("mangrove_table", new TableBlock(FabricBlockSettings.copy(MANGROVE_PLANKS)));
+    public static final Block CRIMSON_TABLE = registerBlock("crimson_table", new TableBlock(FabricBlockSettings.copy(CRIMSON_PLANKS)));
+    public static final Block WARPED_TABLE = registerBlock("warped_table", new TableBlock(FabricBlockSettings.copy(WARPED_PLANKS)));
+
     //Register blocks
     //Silver
     public static final Block SILVER_BLOCK = registerBlock("silver_block", new Block(FabricBlockSettings.of(Material.METAL, MapColor.LIGHT_BLUE).strength(3.0F, 6.0F).sounds(BlockSoundGroup.METAL).requiresTool()));
@@ -66,19 +80,13 @@ public class ModBlocks {
     public static final Block NETHERITE_BLOCK_STAIRS = registerBlock("netherite_block_stairs", new StairsBlock(Blocks.NETHERITE_BLOCK.getDefaultState(), FabricBlockSettings.copy(NETHERITE_BLOCK)));
     public static final Block NETHERITE_BLOCK_SLAB = registerBlock("netherite_block_slab", new SlabBlock(FabricBlockSettings.copy(NETHERITE_BLOCK)));
 
-    //Chairs
-    //public static final Block OAK_CHAIR = registerBlock("OAK_CHAIR", new ChairBlock(FabricBlockSettings.copy(OAK_PLANKS)));
+    //Emerald
+    public static final Block EMERALD_BLOCK_STAIRS = registerBlock("emerald_block_stairs", new StairsBlock(EMERALD_BLOCK.getDefaultState(), FabricBlockSettings.copy(EMERALD_BLOCK)));
+    public static final Block EMERALD_BLOCK_SLAB = registerBlock("emerald_block_slab", new SlabBlock(FabricBlockSettings.copy(EMERALD_BLOCK)));
 
-    //Tables
-    public static final Block OAK_TABLE = registerBlock("oak_table", new TableBlock(FabricBlockSettings.copy(OAK_PLANKS)));
-    public static final Block SPRUCE_TABLE = registerBlock("spruce_table", new TableBlock(FabricBlockSettings.copy(SPRUCE_PLANKS)));
-    public static final Block BIRCH_TABLE = registerBlock("birch_table", new TableBlock(FabricBlockSettings.copy(BIRCH_PLANKS)));
-    public static final Block JUNGLE_TABLE = registerBlock("jungle_table", new TableBlock(FabricBlockSettings.copy(JUNGLE_PLANKS)));
-    public static final Block ACACIA_TABLE = registerBlock("acacia_table", new TableBlock(FabricBlockSettings.copy(ACACIA_PLANKS)));
-    public static final Block DARK_OAK_TABLE = registerBlock("dark_oak_table", new TableBlock(FabricBlockSettings.copy(DARK_OAK_PLANKS)));
-    public static final Block MANGROVE_TABLE = registerBlock("mangrove_table", new TableBlock(FabricBlockSettings.copy(MANGROVE_PLANKS)));
-    public static final Block CRIMSON_TABLE = registerBlock("crimson_table", new TableBlock(FabricBlockSettings.copy(CRIMSON_PLANKS)));
-    public static final Block WARPED_TABLE = registerBlock("warped_table", new TableBlock(FabricBlockSettings.copy(WARPED_PLANKS)));
+    //Diamond
+    public static final Block DIAMOND_BLOCK_STAIRS = registerBlock("diamond_block_stairs", new StairsBlock(DIAMOND_BLOCK.getDefaultState(), FabricBlockSettings.copy(DIAMOND_BLOCK)));
+    public static final Block DIAMOND_BLOCK_SLAB = registerBlock("diamond_block_slab", new SlabBlock(FabricBlockSettings.copy(DIAMOND_BLOCK)));
 
     //Copper
     //Chains

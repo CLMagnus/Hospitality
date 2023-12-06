@@ -1,0 +1,11 @@
+{
+  "parent": "hospitality:block/template_stairs",
+  "textures": {
+    "up": "hospitality:block/diamond_block/slab_side",
+    "down": "minecraft:block/diamond_block",
+    "north": "hospitality:block/diamond_block/stairs_north",
+    "south": "hospitality:block/diamond_block/stairs_south",
+    "west": "hospitality:block/diamond_block/slab_side",
+    "east": "minecraft:block/diamond_block"
+  }
+}

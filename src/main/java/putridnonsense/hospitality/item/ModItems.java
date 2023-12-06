@@ -23,5 +23,5 @@ public class ModItems {
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
     public static final Item NETHERITE_NUGGET = registerItem("netherite_nugget", new Item(new FabricItemSettings()));
 
-    public static final Item BREWERS_BLUDGEON = registerItem("brewers_bludgeon", new Item(new FabricItemSettings().maxDamage(5)));
+    public static final Item BREWERS_BLUDGEON = registerItem("brewers_bludgeon", new Item(new FabricItemSettings().maxCount(1).maxDamage(250)));
 }
