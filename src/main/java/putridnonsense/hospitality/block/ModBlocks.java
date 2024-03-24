@@ -27,6 +27,9 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
 
+    //Brewery
+    public static final Block DISTILLER = registerBlock("distiller", new DistillerBlock(FabricBlockSettings.copy(COPPER_BLOCK)));
+
     //Chairs
     public static final Block OAK_CHAIR = registerBlock("oak_chair", new ChairBlock(FabricBlockSettings.copy(OAK_PLANKS)));
 

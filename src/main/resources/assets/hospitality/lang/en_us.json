@@ -5,6 +5,7 @@
 	"item.hospitality.raw_silver" : "Raw Silver",
 	"item.hospitality.copper_nugget" : "Copper Nugget",
 	"item.hospitality.netherite_nugget" : "Netherite Nugget",
+	"block.hospitality.distiller" : "Distiller",
 	"block.hospitality.silver_block" : "Block of Silver",
 	"block.hospitality.silver_ore" : "Silver Ore",
 	"block.hospitality.deepslate_silver_ore" : "Deepslate Silver Ore",

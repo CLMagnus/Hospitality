@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/template_trapdoor_open",
+  "parent": "hospitality:block/template_trapdoor_open",
   "textures": {
     "texture": "hospitality:block/gold_trapdoor"
   }

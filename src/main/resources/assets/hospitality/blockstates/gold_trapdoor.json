@@ -1,58 +1,69 @@
 {
   "variants": {
     "facing=east,half=bottom,open=false": {
-      "model": "hospitality:block/gold_trapdoor_bottom"
+      "model": "hospitality:block/gold_trapdoor_closed",
+      "y": 90,
+	  "x": 180
     },
     "facing=east,half=bottom,open=true": {
       "model": "hospitality:block/gold_trapdoor_open",
       "y": 90
     },
     "facing=east,half=top,open=false": {
-      "model": "hospitality:block/gold_trapdoor_top"
+      "model": "hospitality:block/gold_trapdoor_closed",
+      "y": 90
     },
     "facing=east,half=top,open=true": {
       "model": "hospitality:block/gold_trapdoor_open",
-      "y": 90
+      "y": 270
     },
     "facing=north,half=bottom,open=false": {
-      "model": "hospitality:block/gold_trapdoor_bottom"
+      "model": "hospitality:block/gold_trapdoor_closed",
+	  "x": 180
     },
     "facing=north,half=bottom,open=true": {
       "model": "hospitality:block/gold_trapdoor_open"
     },
     "facing=north,half=top,open=false": {
-      "model": "hospitality:block/gold_trapdoor_top"
+      "model": "hospitality:block/gold_trapdoor_closed"
     },
     "facing=north,half=top,open=true": {
-      "model": "hospitality:block/gold_trapdoor_open"
+      "model": "hospitality:block/gold_trapdoor_open",
+      "y": 180
     },
     "facing=south,half=bottom,open=false": {
-      "model": "hospitality:block/gold_trapdoor_bottom"
+      "model": "hospitality:block/gold_trapdoor_closed",
+      "y": 180,
+	  "x": 180
     },
     "facing=south,half=bottom,open=true": {
       "model": "hospitality:block/gold_trapdoor_open",
       "y": 180
     },
     "facing=south,half=top,open=false": {
-      "model": "hospitality:block/gold_trapdoor_top"
+      "model": "hospitality:block/gold_trapdoor_closed",
+      "y": 180
     },
     "facing=south,half=top,open=true": {
       "model": "hospitality:block/gold_trapdoor_open",
-      "y": 180
+      "y": 0
     },
     "facing=west,half=bottom,open=false": {
-      "model": "hospitality:block/gold_trapdoor_bottom"
+      "model": "hospitality:block/gold_trapdoor_closed",
+      "y": 270,
+	  "x": 180
     },
     "facing=west,half=bottom,open=true": {
       "model": "hospitality:block/gold_trapdoor_open",
       "y": 270
     },
     "facing=west,half=top,open=false": {
-      "model": "hospitality:block/gold_trapdoor_top"
+      "model": "hospitality:block/gold_trapdoor_closed",
+      "y": 270
     },
     "facing=west,half=top,open=true": {
       "model": "hospitality:block/gold_trapdoor_open",
-      "y": 270
+      "y": -90
     }
   }
 }

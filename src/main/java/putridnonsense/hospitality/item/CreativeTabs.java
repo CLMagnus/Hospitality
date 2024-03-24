@@ -180,6 +180,9 @@ public class CreativeTabs {
             content.addAfter(CHAIN, WAXED_COPPER_CHAIN);
             content.addAfter(WAXED_COPPER_CHAIN, SILVER_CHAIN);
             content.addAfter(SILVER_CHAIN, GOLD_CHAIN);
+
+            //Distiller
+            content.addAfter(BLAST_FURNACE, DISTILLER);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(content -> {
